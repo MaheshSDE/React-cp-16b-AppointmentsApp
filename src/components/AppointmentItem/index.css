@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #b5b7c4;
+  width: 30%;
+  height: 130px;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #171f46;
+}
+.star-button {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+}
+.date {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #b5b7c4;
+}

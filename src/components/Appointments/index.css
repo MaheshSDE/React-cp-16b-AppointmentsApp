@@ -1,0 +1,110 @@
+/* Write your CSS here */
+.App-container {
+  padding: 20px;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-size: cover;
+}
+.card-container {
+  background-color: #ffffff;
+  width: 90%;
+
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+.appointmentContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.appointmentImg {
+  height: 300px;
+  width: 300px;
+  margin-bottom: 40px;
+}
+.separator {
+  width: 100%;
+  color: #171f46;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  color: #171f46;
+}
+.label {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #b5b7c4;
+}
+.inputTitle {
+  font-family: 'Roboto';
+  width: 100%;
+  height: 30px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.inputDate {
+  font-family: 'Roboto';
+  width: 100%;
+  height: 30px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.button {
+  font-family: 'Roboto';
+  font-size: 15px;
+  height: 30px;
+  width: 50px;
+  background-color: #9796f0;
+  border-radius: 5px;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+}
+.headingContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.appointment {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #171f46;
+}
+.starred-button {
+  height: 30px;
+  width: 70px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #9796f0;
+  border-radius: 15px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+.unOrderList {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.styledStarredButton {
+  color: #ffffff;
+  background-color: #8b5cf6;
+}
